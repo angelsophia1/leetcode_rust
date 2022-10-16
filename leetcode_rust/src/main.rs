@@ -1,12 +1,12 @@
-use crate::two_sum::Solution;
 mod two_sum;
+
 fn main() {
     println!("Hello World");
 }
 
 #[cfg(test)]
 mod test {
-    use crate::*;
+    use crate::two_sum::Solution;
 
     #[test]
     fn test_two_sum() {
